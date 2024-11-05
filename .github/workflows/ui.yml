@@ -30,5 +30,5 @@ jobs:
         projectBaseDir: ui
         # args: -Dproject.settings=packages/simple-react-app/sonar-scanner.properties
       env:
-        SONAR_TOKEN: ${{ secrets.SONAR_SECRET_3 }}
+        SONAR_TOKEN: ${{ secrets.SONAR_CLIENT }}
         SONAR_HOST_URL: https://gbqipwdfkw.a.pinggy.link
