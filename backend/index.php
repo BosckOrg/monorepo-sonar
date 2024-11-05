@@ -2,7 +2,12 @@
 echo 123;
 
 function myEmptyFunction() {
-  return 12;
+  // a + b
+  return 5;
+}
+
+function myCalledFunction() {
+  return 10;
 }
 
 function myUnCalledFunction() {
